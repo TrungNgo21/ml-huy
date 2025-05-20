@@ -19,7 +19,7 @@ export function TabsContainer({ children }: TabsContainerProps) {
             Task 1: Disease Detection
           </h2>
           <ImageUploader
-            endpoint='http://localhost:8000/task1/predict'
+            endpoint='https://desktop-63tcgu5.tail2cfad2.ts.net/task1/predict'
             isTask3={false}
           />
         </div>
@@ -30,7 +30,7 @@ export function TabsContainer({ children }: TabsContainerProps) {
             Task 2: Disease Detection
           </h2>
           <ImageUploader
-            endpoint='http://localhost:8000/task2/predict'
+            endpoint='https://desktop-63tcgu5.tail2cfad2.ts.net/task2/predict'
             isTask3={false}
           />
         </div>
@@ -41,7 +41,7 @@ export function TabsContainer({ children }: TabsContainerProps) {
             Task 3: Age prediction
           </h2>
           <ImageUploader
-            endpoint='http://localhost:8000/task3/predict'
+            endpoint='https://desktop-63tcgu5.tail2cfad2.ts.net/task3/predict'
             isTask3={true}
           />
         </div>

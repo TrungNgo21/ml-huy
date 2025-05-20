@@ -9,7 +9,7 @@ export async function uploadImage(formData: FormData, endpoint: string) {
     }
 
     // Get the API URL from environment variables
-    const apiUrl = "http://localhost:8000/task1/predict"
+    const apiUrl = "https://desktop-63tcgu5.tail2cfad2.ts.net/task1/predict"
 
     if (!apiUrl) {
       throw new Error("MODEL_API_URL environment variable is not set")
