@@ -19,7 +19,7 @@ export function Task3PredictionResults({ results }: PredictionResultsProps) {
   const { prediction_value } = predictions
 
   // Format the age value - handle negative values if needed
-  const formattedAge = Math.abs(prediction_value).toFixed(1)
+  const formattedAge = (prediction_value).toFixed(1)
 
   return (
     <Card>
@@ -35,7 +35,7 @@ export function Task3PredictionResults({ results }: PredictionResultsProps) {
         <div className="space-y-2">
           <h3 className="text-lg font-medium">Predicted Age</h3>
           <div className="rounded-md bg-muted p-6 flex items-center justify-center">
-            <p className="text-4xl font-bold">{formattedAge} years</p>
+            <p className="text-4xl font-bold">{formattedAge} days</p>
           </div>
         </div>
 
